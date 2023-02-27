@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./css gb/home-global.css" />
+    <link rel="stylesheet" href="./css/search.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+    />
+    <style>
+      @font-face {
+        font-family: "Proxima Nova Alt";
+        src: url("public/ProximaNovaA-Bold.ttf");
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="search-by-name">
+      <b class="search-by-name1">SEARCH BY NAME:</b>
+      <div class="rectangle-div"></div>
+      <img class="mask-group-icon" alt="" src="public/mask-group@2x.png" />
+      <div class="navbar-div">
+        <button class="rectangle-button"></button
+        ><button class="browse-button" id="browseButton">
+          <span class="browse-txt-span"
+            ><span class="b-span">B</span
+            ><span class="rowse-span">rowse</span></span
+          ></button
+        ><button class="home-button" id="homeButton">
+          <span class="browse-txt-span"
+            ><span class="b-span">H</span
+            ><span class="rowse-span">ome</span></span
+          ></button
+        ><button class="explore-button" id="exploreButton">
+          <div class="rectangle-div1"></div>
+          <div class="explore-div">
+            <span class="browse-txt-span"
+              ><span class="b-span">E</span
+              ><span class="rowse-span">xplore</span></span
+            >
+          </div></button
+        ><button class="search-button" id="searchButton">
+          <span class="browse-txt-span"
+            ><span class="b-span">S</span
+            ><span class="rowse-span">earch</span></span
+          ></button
+        ><button class="category-button" id="categoryButton">
+          <span class="browse-txt-span"
+            ><span class="b-span">C</span
+            ><span class="rowse-span">ategory</span></span
+          >
+        </button>
+      </div>
+      <button class="iconsaxboldback-button" id="iconsaxBoldbackButton">
+        <img class="vector-icon" alt="" src="public/vector.svg" />
+      </button>
+      <div class="rectangle-div2"></div>
+      <img class="safari-icon-1" alt="" src="public/safariicon-1@2x.png" />
+      <div class="pce-navigator-div">PCE NAVIGATOR</div>
+      <input class="component-2-input" type="text" />
+      <div class="starting-point-div">Starting Point:</div>
+      <img
+        class="material-symbolssearch-rounde-icon"
+        alt=""
+        src="public/materialsymbolssearchrounded.svg"
+      /><input class="component-3-input" type="text" /><button
+        class="group-button"
+      >
+        <button class="component-4-button">
+          <div class="ground-floor-div"></div>
+          <img class="icon-arrow-ios-downward" alt="" /></button
+        ><button class="get-path-button">GET PATH</button>
+      </button>
+      <div class="ending-point-div">Ending Point:</div>
+      <img
+        class="material-symbolssearch-rounde-icon1"
+        alt=""
+        src="public/materialsymbolssearchrounded.svg"
+      />
+    </div>
+
+    <script>
+      var homeButton = document.getElementById("homeButton");
+      if (homeButton) {
+        homeButton.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var categoryButton = document.getElementById("categoryButton");
+      if (categoryButton) {
+        categoryButton.addEventListener("click", function (e) {
+          window.location.href = "./category.html";
+        });
+      }
+      var exploreButton = document.getElementById("exploreButton");
+      if (exploreButton) {
+        exploreButton.addEventListener("click", function (e) {
+          window.location.href = "./explore.html";
+        });
+      }
+      var browseButton = document.getElementById("browseButton");
+      if (browseButton) {
+        browseButton.addEventListener("click", function (e) {
+          window.location.href = "./browse.html";
+        });
+      }
+      
+      var iconsaxBoldbackButton = document.getElementById("iconsaxBoldbackButton");
+      if (iconsaxBoldbackButton) {
+        iconsaxBoldbackButton.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      </script>
+  </body>
+</html>

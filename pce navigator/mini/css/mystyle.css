@@ -1,0 +1,254 @@
+.point {
+
+  stroke-width: 1px;
+
+  stroke: black;
+
+  fill: blue;
+
+}
+
+
+
+.created, .selected {
+
+	stroke-width: 1px;
+
+	stroke: black;
+
+}
+
+
+
+#tutorial1 {
+
+	display: block;
+
+}
+
+
+
+#tutorial2 {
+
+	display: none;
+
+}
+
+
+
+#tutorial3 {
+
+	display: none;
+
+}
+
+
+
+#tutorial4 {
+
+	display: none;
+
+}
+
+
+
+#tutorial5 {
+
+	display: none;
+
+}
+
+
+
+#tutorial6 {
+
+	display: none;
+
+}
+
+
+
+#tutorial7 {
+
+	display: none;
+
+}
+
+
+
+#SelInterface {
+
+	display: block;
+
+}
+
+
+
+#adminDiv {
+
+	display: block;
+
+}
+
+
+
+.background {
+
+	fill: transparent;
+
+}
+
+
+
+#menagenode {
+
+	display: none;
+
+}
+
+
+
+#create {
+
+	display: none;
+
+}
+
+
+
+#createnode {
+
+	display: none;
+
+}
+
+
+
+#modifynode {
+
+	display: none;
+
+}
+
+
+
+#menagearch {
+
+	display: none;
+
+}
+
+
+
+#addingArch {
+
+	display: none;
+
+}
+
+
+
+#modifyarchs {
+
+	display: none;
+
+}
+
+
+
+/* #UsingMapForm {
+
+	display: none;
+
+} */
+
+
+
+#p1t3, #p2t3, #p3t3, #p4t3, #p5t3 {
+
+	display: none;
+
+	text-decoration: none;
+
+}
+
+
+
+#p1t4, #p2t4, #p3t4, #p4t4, #p5t4 {
+
+	display: none;
+
+	text-decoration: none;
+
+}
+
+
+
+#p1t5 {
+
+	display: none;
+
+	text-decoration: none;
+
+}
+
+#p2t5, #p3t5, #p4t5, #p5t5, #p6t5, #p7t5, #p8t5 {
+
+	display: none;
+
+	text-decoration: none;
+
+}
+
+
+
+#p1t6, #p2t6, #p3t6, #p4t6 {
+
+	display: none;
+
+	text-decoration: none;
+
+}
+
+
+
+#p1t7 {
+
+	display: none;
+
+	text-decoration: none;
+
+}
+
+#p2t7, #p3t7, #p4t7, #p5t7, #p6t7 {
+
+	display: none;
+
+	text-decoration: none;
+
+}
+
+
+
+#remembernode {
+
+	display: none;
+
+}
+
+
+
+.row-fluid a {
+
+	cursor: pointer;
+
+}
+/* .form{
+	position: absolute;
+	top: 230px;
+	left: 89px;
+	border-radius: 12px;
+	background-color: #b8b6b6;
+	width: 552px;
+	height: 422px;
+} */

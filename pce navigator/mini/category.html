@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./css gb/home-global.css" />
+    <link rel="stylesheet" href="./css/category.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+    />
+    <style>
+      @font-face {
+        font-family: "Proxima Nova Alt";
+        src: url("public/ProximaNovaA-Bold.ttf");
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="category-div">
+      <img class="path-1-icon" alt="" src="public/path-1@2x.png" /><img
+        class="path-2-icon"
+        alt=""
+        src="public/path-2@2x.png"
+      /><img class="path-5-icon" alt="" src="public/path-5@2x.png" /><img
+        class="path-3-icon"
+        alt=""
+        src="public/path-3@2x.png"
+      />
+      <div class="navbar-div3">
+        <button class="rectangle-button3"></button
+        ><button class="browse-button2" id="browseButton">
+          <span class="browse-txt-span3"
+            ><span class="b-span3">B</span
+            ><span class="rowse-span3">rowse</span></span
+          ></button
+        ><button class="home-button3 "id="homeButton">
+          <span class="browse-txt-span3"
+            ><span class="b-span3">H</span
+            ><span class="rowse-span3">ome</span></span
+          ></button
+        ><button class="explore-button3" id="exploreButton">
+          <div class="rectangle-div16"></div>
+          <div class="explore-div4">
+            <span class="browse-txt-span3"
+              ><span class="b-span3">E</span
+              ><span class="rowse-span3">xplore</span></span
+            >
+          </div></button
+        ><button class="search-button1">
+          <span class="browse-txt-span3"
+            ><span class="b-span3">S</span
+            ><span class="rowse-span3">earch</span></span
+          ></button
+        ><button class="category-button4" id="categoryButton">
+          <span class="browse-txt-span3"
+            ><span class="b-span3">C</span
+            ><span class="rowse-span3">ategory</span></span
+          >
+        </button>
+      </div>
+      <b class="search-by-category1">SEARCH BY CATEGORY:</b
+      ><button class="group-button3" id="groupButton">
+        <div class="rectangle-div17"></div>
+        <b class="classroom-b">Classroom</b
+        ><img
+          class="classroom-amico-1-icon"
+          alt=""
+          src="public/classroomamico-1@2x.png"
+        /></button
+      ><button class="group-button4">
+        <div class="rectangle-div18" id="rectangle2"></div>
+        <b class="labs">Labs</b
+        ><img
+          class="biologist-amico-1-icon"
+          alt=""
+          src="public/biologistamico-1@2x.png"
+          id="biologistAmico1Image"
+        /></button
+      ><button class="group-button5">
+        <div class="rectangle-div18" id="rectangle3"></div>
+        <b class="classroom-b">Office</b
+        ><img
+          class="classroom-amico-1-icon"
+          alt=""
+          src="public/office-1@2x.png"
+        /></button
+      ><button class="group-button6">
+        <div class="rectangle-div18" id="rectangle4"></div>
+        <b class="others-b">Others</b
+        ><img
+          class="classroom-amico-1-icon"
+          alt=""
+          src="public/interviewamico-1@2x.png"
+        /></button
+      ><button class="iconsaxboldback-button2" id="iconsaxBoldbackButton">
+        <img class="vector-icon2" alt="" src="public/vector2.svg" /></button
+      ><img class="line-icon" alt="" src="public/line-5.svg" />
+      <div class="rectangle-div21"></div>
+      <img class="mask-group-icon3" alt="" src="public/mask-group3@2x.png" />
+      <div class="rectangle-div22"></div>
+      <img class="safari-icon-14" alt="" src="public/safariicon-11@2x.png" />
+      <div class="pce-navigator-div3">PCE NAVIGATOR</div>
+    </div>
+
+    <script>
+      
+      
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./classroom.html";
+        });
+      }
+      
+      var rectangle2 = document.getElementById("rectangle2");
+      if (rectangle2) {
+        rectangle2.addEventListener("click", function (e) {
+          // Please sync "Labs" to the project
+        });
+      }
+      
+      var biologistAmico1Image = document.getElementById("biologistAmico1Image");
+      if (biologistAmico1Image) {
+        biologistAmico1Image.addEventListener("click", function (e) {
+          // Please sync "Labs" to the project
+        });
+      }
+      
+      var rectangle3 = document.getElementById("rectangle3");
+      if (rectangle3) {
+        rectangle3.addEventListener("click", function (e) {
+          window.location.href = "./office.html";
+        });
+      }
+      
+      var rectangle4 = document.getElementById("rectangle4");
+      if (rectangle4) {
+        rectangle4.addEventListener("click", function (e) {
+          // Please sync "Others" to the project
+        });
+      }
+      var homeButton = document.getElementById("homeButton");
+      if (homeButton) {
+        homeButton.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+
+      var exploreButton = document.getElementById("exploreButton");
+      if (exploreButton) {
+        exploreButton.addEventListener("click", function (e) {
+          window.location.href = "./explore.html";
+        });
+      }
+      
+      var categoryButton = document.getElementById("categoryButton");
+      if (categoryButton) {
+        categoryButton.addEventListener("click", function (e) {
+          window.location.href = "./category.html";
+        });
+      }
+      var browseButton = document.getElementById("browseButton");
+      if (browseButton) {
+        browseButton.addEventListener("click", function (e) {
+          window.location.href = "./browse.html";
+        });
+      }
+      var returnButton = document.getElementById("returnButton");
+      if (returnButton) {
+        returnButton.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+     
+      </script>
+  </body>
+</html>

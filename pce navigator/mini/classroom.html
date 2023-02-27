@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./css gb/home-global.css" />
+    <link rel="stylesheet" href="./css/classroom.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+    />
+    <style>
+      @font-face {
+        font-family: "Proxima Nova Alt";
+        src: url("public/ProximaNovaA-Bold.ttf");
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="classroom-div">
+      <b class="search-by-classroom">SEARCH BY CLASSROOM:</b>
+      <div class="rectangle-div11"></div>
+      <button class="group-button2" data-animate-on-scroll>
+        <div class="rectangle-div12"></div>
+        <div class="get-path-div">GET PATH</div>
+      </button>
+      <form class="classroom-form">
+        <img
+          class="icon-arrow-ios-downward1"
+          alt=""
+          src="public/-icon-arrow-ios-downward1.svg"
+        />
+        <div class="enter-end-position">Enter End Position</div>
+        <div class="frame-div1">
+          <div class="r-001-div">R-001</div>
+          <div class="line-div1"></div>
+          <div class="r-002-div">R-002</div>
+          <div class="line-div2"></div>
+          <div class="r-003-div">R-003</div>
+          <div class="line-div3"></div>
+          <div class="r-004-div">R-004</div>
+        </div>
+      </form>
+      <form class="classroom-form1">
+        <img
+          class="icon-arrow-ios-downward1"
+          alt=""
+          src="public/-icon-arrow-ios-downward1.svg"
+        />
+        <div class="enter-end-position">Enter Start Position</div>
+        <div class="frame-div1">
+          <div class="r-001-div">R-001</div>
+          <div class="line-div1"></div>
+          <div class="r-002-div">R-002</div>
+          <div class="line-div2"></div>
+          <div class="r-003-div">R-003</div>
+          <div class="line-div3"></div>
+          <div class="r-004-div">R-004</div>
+        </div>
+      </form>
+      <div class="rectangle-div13"></div>
+      <img class="mask-group-icon2" alt="" src="public/mask-group2@2x.png" />
+      <div class="navbar-div2">
+        <button class="rectangle-button2"></button>
+        <div class="browse-div1">
+          <span class="browse-txt-span2"
+            ><span class="b-span2">B</span
+            ><span class="rowse-span2">rowse</span></span
+          >
+        </div>
+        <button class="home-button2" id="homeButton">
+          <span class="browse-txt-span2"
+            ><span class="b-span2">H</span
+            ><span class="rowse-span2">ome</span></span
+          ></button
+        ><button class="explore-button2" id="exploreButton">
+          <div class="rectangle-div14"></div>
+          <div class="explore-div3">
+            <span class="browse-txt-span2"
+              ><span class="b-span2">E</span
+              ><span class="rowse-span2">xplore</span></span
+            >
+          </div>
+        </button>
+        <div class="search-div1">
+          <span class="browse-txt-span2"
+            ><span class="b-span2">S</span
+            ><span class="rowse-span2">earch</span></span
+          >
+        </div>
+        <button class="category-button3" id="categoryButton">
+          <span class="browse-txt-span2"
+            ><span class="b-span2">C</span
+            ><span class="rowse-span2">ategory</span></span
+          >
+        </button>
+      </div>
+      <button class="iconsaxboldback-button1" id="returnButton">
+        <img class="vector-icon1" alt="" src="public/vector1.svg" />
+      </button>
+      <div class="rectangle-div15"></div>
+      <img class="safari-icon-13" alt="" src="public/safariicon-11@2x.png" />
+      <div class="pce-navigator-div2">PCE NAVIGATOR</div>
+    </div>
+
+    <script>
+      var exploreButton = document.getElementById("exploreButton");
+      if (exploreButton) {
+        exploreButton.addEventListener("click", function (e) {
+          window.location.href = "./explore.html";
+        });
+      }
+      
+      var categoryButton = document.getElementById("categoryButton");
+      if (categoryButton) {
+        categoryButton.addEventListener("click", function (e) {
+          window.location.href = "./category.html";
+        });
+      }
+      
+      var iconsaxBoldbackButton = document.getElementById("iconsaxBoldbackButton");
+      if (iconsaxBoldbackButton) {
+        iconsaxBoldbackButton.addEventListener("click", function (e) {
+          window.location.href = "./F$321:145$";
+        });
+      }
+      var homeButton = document.getElementById("homeButton");
+      if (homeButton) {
+        homeButton.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+
+      var exploreButton = document.getElementById("exploreButton");
+      if (exploreButton) {
+        exploreButton.addEventListener("click", function (e) {
+          window.location.href = "./explore.html";
+        });
+      }
+      
+      var categoryButton = document.getElementById("categoryButton");
+      if (categoryButton) {
+        categoryButton.addEventListener("click", function (e) {
+          window.location.href = "./category.html";
+        });
+      }
+      var browseButton = document.getElementById("browseButton");
+      if (browseButton) {
+        browseButton.addEventListener("click", function (e) {
+          window.location.href = "./browse.html";
+        });
+      }
+      var returnButton = document.getElementById("returnButton");
+      if (returnButton) {
+        returnButton.addEventListener("click", function (e) {
+          window.location.href = "./category.html";
+        });
+      }
+     
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>

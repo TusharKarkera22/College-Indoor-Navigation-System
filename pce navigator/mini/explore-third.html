@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./css gb/home-global.css" />
+    <link rel="stylesheet" href="./css/explore.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+    />
+    <style>
+      @font-face {
+        font-family: "Proxima Nova Alt";
+        src: url("public/ProximaNovaA-Bold.ttf");
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="explore-div1">
+      <b class="explore-b1">EXPLORE:</b>
+      <div class="rectangle-div8"></div>
+      <img class="mask-group-icon1" alt="" src="public/3rd floor.jpg" />
+      <form class="component-2-form">
+        <select class="map-select" onchange="countryHandler(this.value)"  >
+          <option value="explore-third">Third Floor</option>
+          
+          <option value="explore">Ground Floor</option>
+          <option value="explore-first">First Floor</option>
+          <option value="explore-second">Second Floor</option>
+          <option value="explore-fourth">Fourth Floor</option>
+          <option value="explore-fifth">Fifth Floor</option>
+        </select>
+
+       
+      </form>
+      <div class="navbar-div1">
+        <button class="rectangle-button1"id="browseButton"></button>
+        
+        <div class="browse-div"id="browseButton">
+          <span class="browse-txt-span1"
+            ><span class="b-span1">B</span
+            ><span class="rowse-span1">rowse</span></span>
+        </div>
+        <button class="home-button1"id="homeButton">
+          <span class="browse-txt-span1"
+            ><span class="b-span1">H</span
+            ><span class="rowse-span1">ome</span></span
+          ></button
+        ><button class="explore-button1" id="exploreButton">
+          <div class="rectangle-div9"></div>
+          <div class="explore-div2">
+            <span class="browse-txt-span1"
+              ><span class="b-span1">E</span
+              ><span class="rowse-span1">xplore</span></span
+            >
+          </div>
+        </button>
+        <div class="search-div">
+          <span class="browse-txt-span1"
+            ><span class="b-span1">S</span
+            ><span class="rowse-span1">earch</span></span
+          >
+        </div>
+        <button class="category-button2" id="categoryButton">
+          <span class="browse-txt-span1"
+            ><span class="b-span1">C</span
+            ><span class="rowse-span1">ategory</span></span
+          >
+        </button>
+      </div>
+      <button class="iconsaxboldback-button" id="returnButton">
+        <img class="vector-icon" alt="" src="public/vector.svg" />
+      </button>
+      <div class="rectangle-div10"></div>
+      <img class="safari-icon-12" alt="" src="public/safariicon-11@2x.png" />
+      <div class="pce-navigator-div1">PCE NAVIGATOR</div>
+    </div>
+
+    <script>
+       function countryHandler(value) {
+          window.location.assign(`${value}.html`);
+      }
+      var homeButton = document.getElementById("homeButton");
+      if (homeButton) {
+        homeButton.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+
+      var exploreButton = document.getElementById("exploreButton");
+      if (exploreButton) {
+        exploreButton.addEventListener("click", function (e) {
+          window.location.href = "./explore.html";
+        });
+      }
+      
+      var categoryButton = document.getElementById("categoryButton");
+      if (categoryButton) {
+        categoryButton.addEventListener("click", function (e) {
+          window.location.href = "./category.html";
+        });
+      }
+      var browseButton = document.getElementById("browseButton");
+      if (browseButton) {
+        browseButton.addEventListener("click", function (e) {
+          window.location.href = "./browse.html";
+        });
+      }
+      var returnButton = document.getElementById("returnButton");
+      if (returnButton) {
+        returnButton.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      </script>
+  </body>
+</html>

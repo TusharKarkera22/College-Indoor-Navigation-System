@@ -1,0 +1,25 @@
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-proxima-nova-alt: "Proxima Nova Alt";
+
+  /* font sizes */
+  --font-size-sm: 18px;
+  --font-size-base: 20px;
+  --font-size-lg: 24px;
+  --font-size-xl: 32px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #d9d9d9;
+  --color-gray-200: #171717;
+  --color-gray-300: #0a0a0a;
+  --color-gray-400: rgba(217, 217, 217, 0);
+  --color-black: #000;
+
+  /* border radiuses */
+  --br-xs: 8px;
+  --br-sm: 12px;
+  --br-md: 15px;
+  --br-lg: 20px;
+}

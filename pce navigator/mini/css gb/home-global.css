@@ -1,0 +1,32 @@
+:root {
+    /* fonts */
+    --font-poppins: Poppins;
+    --font-proxima-nova-alt: "Proxima Nova Alt";
+  
+    /* font sizes */
+    --font-size-sm: 18px;
+    --font-size-base: 20px;
+    --font-size-lg: 24px;
+    --font-size-xl: 28px;
+    --font-size-2xl: 32px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gray-100: #d9d9d9;
+    --color-gray-200: #b8b6b6;
+    --color-gray-300: #585656;
+    --color-gray-400: #28282b;
+    --color-gray-500: #171717;
+    --color-gray-600: #0a0a0a;
+    --color-gray-700: rgba(23, 23, 23, 0.9);
+    --color-gray-800: rgba(217, 217, 217, 0);
+    --color-black: #000;
+  
+    /* border radiuses */
+    --br-xs: 8px;
+    --br-sm: 10px;
+    --br-md: 12px;
+    --br-lg: 15px;
+    --br-xl: 20px;
+  }
+  
